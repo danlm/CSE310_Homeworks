@@ -1,0 +1,37 @@
+27
+Insertion
+0-7637-2129-8/Foundations of Algorithms, using Java/Jones and Bartlett
+0-7637-0620-5/Foundations of Algorithms, using C++/Jones and Bartlett
+0-13-086373-4/Algorithms Sequential and Parallel/Prentice Hall
+0-13-028446-7/A Practical Introduction to Algorithm Analysis/Prentice Hall
+0-13-335068-1/Fundamentals of Algorithms/Prentice Hall
+9-780201-612448/Computer Algorithms/Addison Wesley
+0-471-38365-1/Algorithm Design/Wiley
+0-321-35828-7/The Design and Analysis of Algorithms/Addison Wesley
+0-02-360692-4/Algorithms/Prentice Hall
+9-0-07-352340-8/Algorithms II/McGraw Hill
+0-13-198619-8/Data Structures Outside In/Pearson Prentice Hall
+0-07-109217-X/Data Structures, Algorithms, and Applications/McGraw Hill
+0-13-181488-5/Introductory Combinatorics/Prentice Hall
+0-146-810886-7/Data Structures and Algorithms Made Easy/CreateSpace
+0-05-9651624-X/Algorithms in a Nutshell/O'Reilly
+0-13-143563-5/Essential Algorithms/Wiley
+0-02-184932-7/Algorithms Unlocked/Addison Wesley
+0-003-830-543/Classification Algorithms/Collins
+0-38-730814-8/Sampling Algorithms/Springer
+Search
+0-02-360692-4
+0-07-109217-A
+0-02-284932-7
+0-07-109217-X
+0-471-38365-1
+0-780201-612448
+Change
+9-0-07-352340-8/Algorithms 3
+0-02-380692-4/Algorithms in C++
+0-7637-2129-8/Foundations of Algorithms, using Python
+0-07-109217-X/Data Structures and Algorithms
+0-38-730814-8/Scheduling Algorithms
+0-471-38465-1/Algorithm Design II
+Display
+

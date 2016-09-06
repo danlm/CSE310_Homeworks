@@ -1,0 +1,29 @@
+A
+Foundations of Algorithms, using Java Pseudocode
+0-7637-2129-8
+D
+A
+Foundations of Algorithms, using C++ Pseudocode
+0-7637-0620-5
+A
+Algorithms Sequential and Parallel, A Unified Approach
+0-13-086373-4
+D
+A
+A Practical Introduction to Data Structures and Algorithm Analysis
+0-13-028446-7
+D
+A
+Fundamentals of Algorithms
+0-13-335068-1
+A
+Computer Algorithms
+9-780201-612448
+D
+R
+9-780201-612449
+D
+R
+0-13-335068-1
+D
+Q

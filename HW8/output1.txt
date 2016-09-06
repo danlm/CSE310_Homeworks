@@ -1,0 +1,36 @@
+The minimum spanning tree produced by the Prim's algorithm consists of the following edges:
+
+Aluminum -> Dysprosium with key 21
+Dysprosium -> Calcium with key 12
+Calcium -> Fluorine with key 2
+Fluorine -> Helium with key 5
+Dysprosium -> Europium with key 28
+Europium -> Iodine with key 14
+Iodine -> Barium with key 24
+Barium -> Gallium with key 17
+
+The total tree weight is 123
+The array pi content:
+
+pi[Aluminum]= none
+pi[Barium]= Iodine
+pi[Calcium]= Dysprosium
+pi[Dysprosium]= Aluminum
+pi[Europium]= Dysprosium
+pi[Fluorine]= Calcium
+pi[Gallium]= Barium
+pi[Helium]= Fluorine
+pi[Iodine]= Europium
+
+The array key content:
+
+key[Aluminum]=0
+key[Barium]=24
+key[Calcium]=12
+key[Dysprosium]=21
+key[Europium]=28
+key[Fluorine]=2
+key[Gallium]=17
+key[Helium]=5
+key[Iodine]=14
+

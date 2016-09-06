@@ -1,0 +1,19 @@
+13
+Insertion
+0-13-335068-1/Fundamentals of Algorithms/Prentice Hall
+0-7637-0620-5/Foundations of Algorithms, using C++/Jones and Bartlett
+0-02-360692-4/Algorithms/Prentice Hall
+0-13-181488-5/Introductory Combinatorics/Prentice Hall
+0-13-143563-5/Essential Algorithms/Wiley
+Search
+0-02-360692-4
+0-146-810886-7
+0-02-360692-4
+0-7637-0620-5
+0-02-360692-4
+Change
+0-02-360692-4/Scheduling Algorithms
+0-02-360692-4/Essential Algorithms
+0-38-730814-8/Fundamentals of Algorithms
+Display
+

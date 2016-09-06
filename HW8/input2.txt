@@ -1,0 +1,12 @@
+9
+
+Helium       Barium/16      Calcium/6
+Aluminum      Dysprosium/21
+Calcium     Fluorine/2   Helium/6   Dysprosium/12
+Iodine       Barium/24
+Dysprosium       Calcium/12     Europium/28   Aluminum/21
+Europium        Fluorine/29    Gallium/16     Dysprosium/28
+Fluorine    Barium/15   Calcium/2   Europium/29
+Gallium      Europium/16   Barium/17
+Barium     Gallium/17  Helium/16   Fluorine/15   Iodine/24
+

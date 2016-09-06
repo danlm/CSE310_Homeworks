@@ -1,0 +1,406 @@
+{\rtf1\ansi\ansicpg1252\deff0\uc1
+{\fonttbl
+{\f0\fnil\fcharset0\fprq0\fttruetype Times New Roman;}
+{\f1\fnil\fcharset0\fprq0\fttruetype Liberation Sans;}
+{\f2\fnil\fcharset0\fprq0\fttruetype Courier New;}}
+{\colortbl
+\red0\green0\blue0;
+\red255\green255\blue255;
+\red255\green255\blue255;}
+{\stylesheet
+{\s6\fi-431\li720\sbasedon28\snext28 Contents 1;}
+{\s7\fi-431\li1440\sbasedon28\snext28 Contents 2;}
+{\s1\fi-431\li720 Arrowhead List;}
+{\s27\fi-431\li720\sbasedon28 Lower Roman List;}
+{\s29\tx431\sbasedon20\snext28 Numbered Heading 1;}
+{\s30\tx431\sbasedon21\snext28 Numbered Heading 2;}
+{\s12\fi-431\li720 Diamond List;}
+{\s9\fi-431\li2880\sbasedon28\snext28 Contents 4;}
+{\s8\fi-431\li2160\sbasedon28\snext28 Contents 3;}
+{\s31\tx431\sbasedon22\snext28 Numbered Heading 3;}
+{\s32\fi-431\li720 Numbered List;}
+{\s15\sbasedon28 Endnote Text;}
+{\*\cs14\fs20\super Endnote Reference;}
+{\s4\fi-431\li720 Bullet List;}
+{\s5\tx1584\sbasedon29\snext28 Chapter Heading;}
+{\s35\fi-431\li720 Square List;}
+{\s11\fi-431\li720 Dashed List;}
+{\s22\sb440\sa60\f1\fs24\b\sbasedon28\snext28 Heading 3;}
+{\s37\fi-431\li720 Tick List;}
+{\s24\fi-431\li720 Heart List;}
+{\s40\fi-431\li720\sbasedon32 Upper Roman List;}
+{\s39\fi-431\li720\sbasedon32 Upper Case List;}
+{\s16\fi-288\li288\fs20\sbasedon28 Footnote;}
+{\s19\fi-431\li720 Hand List;}
+{\s18\fs20\sbasedon28 Footnote Text;}
+{\s20\sb440\sa60\f1\fs34\b\sbasedon28\snext28 Heading 1;}
+{\s21\sb440\sa60\f1\fs28\b\sbasedon28\snext28 Heading 2;}
+{\s10\qc\sb240\sa120\f1\fs32\b\sbasedon28\snext28 Contents Header;}
+{\s23\sb440\sa60\f1\fs24\b\sbasedon28\snext28 Heading 4;}
+{\s28\f0\fs24 Normal;}
+{\s26\fi-431\li720\sbasedon32 Lower Case List;}
+{\s2\li1440\ri1440\sa120\sbasedon28 Block Text;}
+{\s33\f2\sbasedon28 Plain Text;}
+{\s34\tx1584\sbasedon29\snext28 Section Heading;}
+{\s25\fi-431\li720 Implies List;}
+{\s3\fi-431\li720 Box List;}
+{\s36\fi-431\li720 Star List;}
+{\*\cs17\fs20\super Footnote Reference;}
+{\s38\fi-431\li720 Triangle List;}
+{\s13\fi-288\li288\sbasedon28 Endnote;}}
+\kerning0\cf0\ftnbj\fet2\ftnstart1\ftnnar\aftnnar\ftnstart1\aftnstart1\aenddoc\revprop3{\*\rdf}{\info\uc1{\author wirth}}\deftab720\viewkind1\paperw12240\paperh15840\margl1440\margr1440\widowctrl
+\sectd\sbknone\colsx360\pgncont\ltrsect
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch CSE310 Assignment 1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Due Date}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Friday, August 29th, 7pm, 2014}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Important: This is an individual assignment. Please do not collaborate.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch It must be submitted on-line.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch No late assignment will be accepted}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Minimal Submitted Files}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You are required to turn in the following source file(s) in C++:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Assignment1.cpp (No need to be modified)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch LinkedList.h (More code need to be added)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Important: This is an individual assignment. Please do not collaborate.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Objectives:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     This is a review assignment. One needs to get ready to program in C++ and to know the basic data structures such as linked lists.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Assignment Description:         }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch       Write a C++ program that creates a linked list of Book data. Each entry in the list is to have a book title such as \uc1\u8220\'93Fundamentals of Algorithms\uc1\u8221\'94, and its ISBN such as 0-13-335068-1, and a pointer to the next book data. Then create a pointer (\uc1\u8220\'93head\uc1\u8221\'94) that points to the first element in the linked list (initially NULL). Also, you need to create the following methods in the LinkedList class (within LinkedList.h file):}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch bool LinkedList::addElement(string title, string isbn)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch -          This method attempts to add a new book data into the linked list using the parameter values - book title and ISBN. It needs to use the struct Book. The books in the linked list will be in the alphabetical order (you can use compare( ) of strings in C++) using their book titles. Therefore, it needs to search the correct location to insert each book information. If there is already a book with the same book title in the linked list, it should not add this new book information and the method should return false. The method should return true otherwise (the new book information was successfully added).}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch bool LinkedList::removeElement(string isbn)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch -          This method attempts to remove the book with the parameter ISBN value and should return true if it can find and remove the book information. It should return false otherwise (the book with the parameter ISBN does not exists in the linked list).}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch void LinkedList:printList( )}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch -           It prints all entries in the linked list in the following format:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: A Practical Introduction to Data Structures and Algorithm Analysis}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-028446-7}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Algorithms Sequential and Parallel, A Unified Approach}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-086373-4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using C++ Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-0620-5}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using Java Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-2129-8}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch LinkedList::~LinkedList( )}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch             - This is a destructor of the LinkedList class. It should remove all elements in the linked list and perform garbage collection (free their memory). At the end, it should print: \uc1\u8220\'93The number of deleted books is: XXX\\n\uc1\u8221\'94 where XXX is the number of deleted books in the linked list.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch int main()}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch             - The main function should start by displaying this menu in this format:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch             Choice\\t\\t Action\\n}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch             ------\\t\\t ------\\n}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch             A\\t\\t Add Book\\n}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch             D\\t\\t Display Books\\n}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch             Q\\t\\t Quit\\n}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch             R\\t\\t Remove Book\\n}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch             ? \\t\\t Display Help\\n\\n}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Next, the following prompt should be displayed:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?\\n}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Read in the user input and execute the appropriate command. After the execution of each command, redisplay the prompt. Commands should be accepted in both lowercase and uppercase.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The following is an example run (user input is in bold letter):}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Choice Action}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ------ ------}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch A Add Book}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch D Display Books}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Q Quit}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch R Remove Book}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ? Display Help}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch A}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Please enter a book information:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Enter a book title:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Foundations of Algorithms, using Java Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Enter its ISBN:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 0-7637-2129-8}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The book Foundations of Algorithms, using Java Pseudocode added}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch D}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using Java Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-2129-8}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch A}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Please enter a book information:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Enter a book title:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Foundations of Algorithms, using C++ Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Enter its ISBN:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 0-7637-0620-5}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The book Foundations of Algorithms, using C++ Pseudocode added}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch A}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Please enter a book information:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Enter a book title:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Algorithms Sequential and Parallel, A Unified Approach}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Enter its ISBN:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 0-13-086373-4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The book Algorithms Sequential and Parallel, A Unified Approach added}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch D}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Algorithms Sequential and Parallel, A Unified Approach}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-086373-4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using C++ Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-0620-5}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using Java Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-2129-8}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch A}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Please enter a book information:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Enter a book title:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch A Practical Introduction to Data Structures and Algorithm Analysis}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Enter its ISBN:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 0-13-028446-7}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The book A Practical Introduction to Data Structures and Algorithm Analysis added}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch D}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: A Practical Introduction to Data Structures and Algorithm Analysis}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-028446-7}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Algorithms Sequential and Parallel, A Unified Approach}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-086373-4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using C++ Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-0620-5}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using Java Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-2129-8}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch A}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Please enter a book information:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Enter a book title:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Fundamentals of Algorithms}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Enter its ISBN:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 0-13-335068-1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The book Fundamentals of Algorithms added}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch A}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Please enter a book information:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Enter a book title:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Computer Algorithms}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Enter its ISBN:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 9-780201-612448}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The book Computer Algorithms added}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch D}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: A Practical Introduction to Data Structures and Algorithm Analysis}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-028446-7}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Algorithms Sequential and Parallel, A Unified Approach}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-086373-4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Computer Algorithms}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 9-780201-612448}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using C++ Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-0620-5}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using Java Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-2129-8}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Fundamentals of Algorithms}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-335068-1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch R}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Please enter a book ISBN to remove:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 9-780201-612449}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch A book with ISBN 9-780201-612449 does not exist}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch D}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: A Practical Introduction to Data Structures and Algorithm Analysis}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-028446-7}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Algorithms Sequential and Parallel, A Unified Approach}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-086373-4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Computer Algorithms}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 9-780201-612448}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using C++ Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-0620-5}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using Java Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-2129-8}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Fundamentals of Algorithms}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-335068-1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch R}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Please enter a book ISBN to remove:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch 0-13-335068-1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch A book with ISBN 0-13-335068-1 removed}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch D}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: A Practical Introduction to Data Structures and Algorithm Analysis}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-028446-7}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Algorithms Sequential and Parallel, A Unified Approach}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-13-086373-4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Computer Algorithms}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 9-780201-612448}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using C++ Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-0620-5}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book Title: Foundations of Algorithms, using Java Pseudocode}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Book ISBN: 0-7637-2129-8}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What action would you like to perform?}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Q}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The number of deleted books is: 5}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Implementation/Documentation Requirements:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     You need to implement this program using C++ and it has to read from the standard input (from a keyboard).}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     Your program needs to compile and execute in general.asu.edu.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     You need to define addElement, removeElement, printList, the destructor methods of the LinkedList class}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     Your code should be well documented and commented.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     You must use the provided data sets.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     Also you are not allowed to use any predefined data structures (such as ones in the library, etc.), you need to build your own data structures and operations associated with them (such as add and remove).}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch     Copying any codes from other people\uc1\u8217\'92s programs is considered to be cheating and will lead to a report to the Dean and you will be penalized. (Please review the syllabus)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch What to turn in:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You must turn in C++ source code using the following submission site:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch https://courses.eas.asu.edu/cse310/}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch First, you need to go to the Registration page to create your account using your ASU email address and your choice of a password. Then you login, and click on the Submission page. You need to select the correct assignment number. The types of files that you can submit are .cpp, or .h files. They have to compile and execute in general.asu.edu server. (You can access general.asu.edu by SSH (You can obtain it from myapps.asu.edu), and login using your ASU UserID and password.)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch For C++, the files need to compile and execute with the commands:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch g++ *.cpp}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch a.out}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You program should be well commented and documented, make sure the first few lines of your program contain your name, your ASU email address, and a description of each file. While you will not be graded on style technique (\uc1\u8220\'93i++\uc1\u8221\'94 or \uc1\u8220\'93i = i + 1\uc1\u8221\'94) or indenting by 4 spaces or tables, you should use indentation, good variable names, and clear, easy to read, and specific comments. (You will be graded on comments.)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Input}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch The following files are sample test cases that will be used as input for your program (Right-click and use \uc1\u8220\'93Save As\uc1\u8221\'94):}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Test Case #1}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Test Case #2}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Test Case #3}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Test Case #4}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Test Case #5}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch You can test your program as follows:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch For a C++ program, after compiling your files, one way is:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch a.out < input1.txt}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch or you can replace a.out with whichever your executable file is.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Error Handling}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Your program will be tested with other input besides the ones above, thus is expected to be robust.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Important Note: You may resubmit as many times as you like until the deadline, but we will only mark your last submission.}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Grading Criteria:}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ____/ 3     Documentation (header and comments, header for each function/method)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ____/ 1     Indentation and Spacing (easy to read)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ____/ 2      the addElement method is defined correctly (and it produces the correct output)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ____/ 2      the removeElement method is defined correctly (and it produces the correct output)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ____/ 1      the printList function is method correctly (and it produces the correct output)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ____/ 1      the destructor ~LinkedList method is defined correctly (and it produces the correct output)}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch ____/ 20      Correct output for the test cases}{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch  }{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\par}
+\pard\plain\ltrpar\ql\s28\itap0{\s28\f0\fs24\lang1033{\*\listtag0}\abinodiroverride\ltrch Total points: 30}{\s28\f0\fs24\lang1033{\*\listtag0}\par}}

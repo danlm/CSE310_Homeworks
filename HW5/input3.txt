@@ -1,0 +1,22 @@
+7
+Insertion
+0-7637-2129-8/Foundations of Algorithms, using Java/Jones and Bartlett
+0-7637-0620-5/Foundations of Algorithms, using C++/Jones and Bartlett
+0-13-086373-4/Algorithms Sequential and Parallel/Prentice Hall
+0-13-028446-7/A Practical Introduction to Algorithm Analysis/Prentice Hall
+0-13-335068-1/Fundamentals of Algorithms/Prentice Hall
+9-780201-612448/Computer Algorithms/Addison Wesley
+0-471-38365-1/Algorithm Design/Wiley
+0-321-35828-7/The Design and Analysis of Algorithms/Addison Wesley
+0-02-360692-4/Algorithms/Prentice Hall
+9-0-07-352340-8/Algorithms II/McGraw Hill
+Search
+9-0-07-352340-8
+0-13-028446-7
+9-0-07-352340-8
+Change
+0-02-360692-4/Fundamentals of Algorithms
+9-0-07-352340-8/The Design and Analysis of Algorithms
+0-7637-2129-8/Algorithms Sequential and Parallel
+Display
+

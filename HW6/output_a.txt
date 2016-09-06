@@ -1,0 +1,196 @@
+Choice		Action
+------		------
+A		Inorder Print
+B		Preorder Print
+C		Postorder Print
+D		Tree Minimum
+E		Tree Maximum
+F		Tree Predecessor
+G		Tree Successor
+H		Tree Search
+I		Tree Insert
+J		Tree Delete
+Q		Quit
+?		Display Help
+
+What action would you like to perform?
+Please enter a firstname/lastname/phonenumber to insert:
+Enter a firstname
+Enter a lastname
+Enter a phonenumber
+Albert Smith with phonenumber of 480-111-1111 inserted
+What action would you like to perform?
+Please enter a firstname/lastname/phonenumber to insert:
+Enter a firstname
+Enter a lastname
+Enter a phonenumber
+Jackson Jones with phonenumber of 480-122-2222 inserted
+What action would you like to perform?
+Please enter a firstname/lastname/phonenumber to insert:
+Enter a firstname
+Enter a lastname
+Enter a phonenumber
+Mary Williams with phonenumber of 480-234-5555 inserted
+What action would you like to perform?
+Please enter a firstname/lastname/phonenumber to insert:
+Enter a firstname
+Enter a lastname
+Enter a phonenumber
+Diego Brown with phonenumber of 602-123-4444 inserted
+What action would you like to perform?
+Please enter a firstname/lastname/phonenumber to insert:
+Enter a firstname
+Enter a lastname
+Enter a phonenumber
+Angel Davies with phonenumber of 602-333-1111 inserted
+What action would you like to perform?
+Please enter a firstname/lastname/phonenumber to insert:
+Enter a firstname
+Enter a lastname
+Enter a phonenumber
+Leo Roberts with phonenumber of 623-444-2222 inserted
+What action would you like to perform?
+Please enter a firstname/lastname/phonenumber to insert:
+Enter a firstname
+Enter a lastname
+Enter a phonenumber
+Sam Walker with phonenumber of 520-555-4441 inserted
+What action would you like to perform?
+
+Diego Brown with phone number of 602-123-4444
+Angel Davies with phone number of 602-333-1111
+Jackson Jones with phone number of 480-122-2222
+Leo Roberts with phone number of 623-444-2222
+Albert Smith with phone number of 480-111-1111
+Sam Walker with phone number of 520-555-4441
+Mary Williams with phone number of 480-234-5555
+
+What action would you like to perform?
+
+Albert Smith with phone number of 480-111-1111
+Jackson Jones with phone number of 480-122-2222
+Diego Brown with phone number of 602-123-4444
+Angel Davies with phone number of 602-333-1111
+Leo Roberts with phone number of 623-444-2222
+Mary Williams with phone number of 480-234-5555
+Sam Walker with phone number of 520-555-4441
+
+What action would you like to perform?
+
+Angel Davies with phone number of 602-333-1111
+Diego Brown with phone number of 602-123-4444
+Leo Roberts with phone number of 623-444-2222
+Jackson Jones with phone number of 480-122-2222
+Sam Walker with phone number of 520-555-4441
+Mary Williams with phone number of 480-234-5555
+Albert Smith with phone number of 480-111-1111
+
+What action would you like to perform?
+Please enter a firstname and a lastname to find its predecessor:
+Enter a firstname
+Enter a lastname
+The predecessor of Jackson Jones is Angel Davies with phone number of 602-333-1111
+
+What action would you like to perform?
+Please enter a firstname and a lastname to find its successor:
+Enter a firstname
+Enter a lastname
+The successor of Sam Walker is Mary Williams with phone number of 480-234-5555
+
+What action would you like to perform?
+The first person is Diego Brown with phone number of 602-123-4444
+
+What action would you like to perform?
+The last person is Mary Williams with phone number of 480-234-5555
+
+What action would you like to perform?
+Please enter a firstname and a lastname to search:
+Enter a firstname
+Enter a lastname
+Diego Brown has phonenumber of 602-123-4444
+What action would you like to perform?
+Please enter a firstname and a lastname to search:
+Enter a firstname
+Enter a lastname
+Lee Thompson not found
+What action would you like to perform?
+Please enter a firstname/lastname/phonenumber to insert:
+Enter a firstname
+Enter a lastname
+Enter a phonenumber
+Alex Green with phonenumber of 928-543-2121 inserted
+What action would you like to perform?
+Please enter a firstname/lastname/phonenumber to insert:
+Enter a firstname
+Enter a lastname
+Enter a phonenumber
+Logan Wright with phonenumber of 928-888-5432 inserted
+What action would you like to perform?
+Please enter a firstname and a lastname to search:
+Enter a firstname
+Enter a lastname
+Logan Wright has phonenumber of 928-888-5432
+What action would you like to perform?
+Please enter a firstname and a lastname to delete:
+Enter a firstname
+Enter a lastname
+Mary Williams deleted
+What action would you like to perform?
+Please enter a firstname and a lastname to delete:
+Enter a firstname
+Enter a lastname
+Tony Edwards not deleted
+What action would you like to perform?
+Please enter a firstname and a lastname to find its predecessor:
+Enter a firstname
+Enter a lastname
+The predecessor of Jackson Jones is Alex Green with phone number of 928-543-2121
+
+What action would you like to perform?
+Please enter a firstname and a lastname to find its successor:
+Enter a firstname
+Enter a lastname
+The successor of Leo Roberts is Albert Smith with phone number of 480-111-1111
+
+What action would you like to perform?
+The first person is Diego Brown with phone number of 602-123-4444
+
+What action would you like to perform?
+The last person is Logan Wright with phone number of 928-888-5432
+
+What action would you like to perform?
+
+Diego Brown with phone number of 602-123-4444
+Angel Davies with phone number of 602-333-1111
+Alex Green with phone number of 928-543-2121
+Jackson Jones with phone number of 480-122-2222
+Leo Roberts with phone number of 623-444-2222
+Albert Smith with phone number of 480-111-1111
+Sam Walker with phone number of 520-555-4441
+Logan Wright with phone number of 928-888-5432
+
+What action would you like to perform?
+
+Albert Smith with phone number of 480-111-1111
+Jackson Jones with phone number of 480-122-2222
+Diego Brown with phone number of 602-123-4444
+Angel Davies with phone number of 602-333-1111
+Alex Green with phone number of 928-543-2121
+Leo Roberts with phone number of 623-444-2222
+Logan Wright with phone number of 928-888-5432
+Sam Walker with phone number of 520-555-4441
+
+What action would you like to perform?
+
+Alex Green with phone number of 928-543-2121
+Angel Davies with phone number of 602-333-1111
+Diego Brown with phone number of 602-123-4444
+Leo Roberts with phone number of 623-444-2222
+Jackson Jones with phone number of 480-122-2222
+Sam Walker with phone number of 520-555-4441
+Logan Wright with phone number of 928-888-5432
+Albert Smith with phone number of 480-111-1111
+
+What action would you like to perform?
+
+The number of nodes deleted: 8

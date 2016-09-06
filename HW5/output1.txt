@@ -1,0 +1,75 @@
+Please enter a hash table size:
+
+index  collision   isbn         publisher               title     
+        number
+0       2       0-146-810886-7  CreateSpace             Data Structures and Algorithms Made Easy                    
+1       0       0-02-184932-7   Addison Wesley          Algorithms Unlocked                                         
+2       0       0-13-198619-8   Pearson Prentice Hall   Data Structures Outside In                                  
+3       0       0-7637-0620-5   Jones and Bartlett      Foundations of Algorithms, using C++                        
+4       0       none            none                    none                                                        
+5       0       0-13-143563-5   Wiley                   Essential Algorithms                                        
+6       0       0-13-086373-4   Prentice Hall           Algorithms Sequential and Parallel                          
+7       1       0-13-335068-1   Prentice Hall           Fundamentals of Algorithms                                  
+8       0       none            none                    none                                                        
+9       0       9-780201-612448 Addison Wesley          Computer Algorithms                                         
+10      0       0-13-181488-5   Prentice Hall           Introductory Combinatorics                                  
+11      0       none            none                    none                                                        
+12      0       9-0-07-352340-8 McGraw Hill             Algorithms II                                               
+13      0       none            none                    none                                                        
+14      1       0-05-9651624-X  O'Reilly                Algorithms in a Nutshell                                    
+15      1       0-321-35828-7   Addison Wesley          The Design and Analysis of Algorithms                       
+16      0       none            none                    none                                                        
+17      0       0-13-028446-7   Prentice Hall           A Practical Introduction to Algorithm Analysis              
+18      0       none            none                    none                                                        
+19      0       0-07-109217-X   McGraw Hill             Data Structures, Algorithms, and Applications               
+20      1       0-471-38365-1   Wiley                   Algorithm Design                                            
+21      1       0-003-830-543   Collins                 Classification Algorithms                                   
+22      0       none            none                    none                                                        
+23      1       0-38-730814-8   Springer                Sampling Algorithms                                         
+24      0       none            none                    none                                                        
+25      0       0-02-360692-4   Prentice Hall           Algorithms                                                  
+26      0       0-7637-2129-8   Jones and Bartlett      Foundations of Algorithms, using Java                       
+
+0-02-360692-4 is for the title: Algorithms by the publisher Prentice Hall
+0-07-109217-A not found
+0-02-284932-7 not found
+0-07-109217-X is for the title: Data Structures, Algorithms, and Applications by the publisher McGraw Hill
+0-471-38365-1 is for the title: Algorithm Design by the publisher Wiley
+0-780201-612448 not found
+
+Algorithms 3 with isbn 9-0-07-352340-8 updated
+Algorithms in C++ with isbn 0-02-380692-4 not found
+Foundations of Algorithms, using Python with isbn 0-7637-2129-8 updated
+Data Structures and Algorithms with isbn 0-07-109217-X updated
+Scheduling Algorithms with isbn 0-38-730814-8 updated
+Algorithm Design II with isbn 0-471-38465-1 not found
+
+index  collision   isbn         publisher               title     
+        number
+0       2       0-146-810886-7  CreateSpace             Data Structures and Algorithms Made Easy                    
+1       0       0-02-184932-7   Addison Wesley          Algorithms Unlocked                                         
+2       0       0-13-198619-8   Pearson Prentice Hall   Data Structures Outside In                                  
+3       0       0-7637-0620-5   Jones and Bartlett      Foundations of Algorithms, using C++                        
+4       0       none            none                    none                                                        
+5       0       0-13-143563-5   Wiley                   Essential Algorithms                                        
+6       0       0-13-086373-4   Prentice Hall           Algorithms Sequential and Parallel                          
+7       1       0-13-335068-1   Prentice Hall           Fundamentals of Algorithms                                  
+8       0       none            none                    none                                                        
+9       0       9-780201-612448 Addison Wesley          Computer Algorithms                                         
+10      0       0-13-181488-5   Prentice Hall           Introductory Combinatorics                                  
+11      0       none            none                    none                                                        
+12      0       9-0-07-352340-8 McGraw Hill             Algorithms 3                                                
+13      0       none            none                    none                                                        
+14      1       0-05-9651624-X  O'Reilly                Algorithms in a Nutshell                                    
+15      1       0-321-35828-7   Addison Wesley          The Design and Analysis of Algorithms                       
+16      0       none            none                    none                                                        
+17      0       0-13-028446-7   Prentice Hall           A Practical Introduction to Algorithm Analysis              
+18      0       none            none                    none                                                        
+19      0       0-07-109217-X   McGraw Hill             Data Structures and Algorithms                              
+20      1       0-471-38365-1   Wiley                   Algorithm Design                                            
+21      1       0-003-830-543   Collins                 Classification Algorithms                                   
+22      0       none            none                    none                                                        
+23      1       0-38-730814-8   Springer                Scheduling Algorithms                                       
+24      0       none            none                    none                                                        
+25      0       0-02-360692-4   Prentice Hall           Algorithms                                                  
+26      0       0-7637-2129-8   Jones and Bartlett      Foundations of Algorithms, using Python                     

@@ -1,0 +1,24 @@
+A
+Algorithms Sequential and Parallel, A Unified Approach
+0-13-086373-4
+D
+A
+Fundamentals of Algorithms
+0-13-335068-1
+D
+A
+Computer Algorithms
+9-780201-612448
+D
+A
+Foundations of Algorithms, using C++ Pseudocode
+0-7637-0620-5
+A
+Foundations of Algorithms, using Java Pseudocode
+0-7637-2129-8
+A
+Fundamentals of Algorithms
+0-13-335068-2
+D
+Q
+
